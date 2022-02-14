@@ -3,7 +3,7 @@ layout: single
 title: "연산자 정리"
 ---
 
-#모든 기본 연산자 정리
+# 모든 기본 연산자 정리
 
 1. 증감연산자
 2. 논리연산자
@@ -12,7 +12,7 @@ title: "연산자 정리"
 5. 3항 연산자 
 
 
-##증감연산자
+## 증감연산자
 
 ```javascript
 let num, result;
@@ -44,7 +44,7 @@ console.log(num);
 <br>
 <hr>
 <br>
-##논리연산자
+## 논리연산자
 
 ```javascript
 
@@ -80,7 +80,7 @@ console.log(Boolean(!123)); //output: false
 <hr>
 <br>
 
-##비교연산자
+## 비교연산자
 단순한 비교 연산자이다.
 
 ```javascript
@@ -103,7 +103,7 @@ console.log(false !== 123);
 <br>
 <hr>
 <br>
-##복합대입연산자
+## 복합대입연산자
 
 ```javascript
 let num = 10;
@@ -136,7 +136,7 @@ console.log(result_5);
 <hr>
 <br>
 
-##3항 연산자
+## 3항 연산자
 
 ```javascript
 let age = 20;
