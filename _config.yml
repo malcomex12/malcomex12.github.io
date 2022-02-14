@@ -18,9 +18,9 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 locale                   : "ko"
 title                    : "Kim Min Seung TIL Blog"
 title_separator          : "-"
-subtitle                 : "Today I Learn"
+subtitle                 : "Today I Learned"
 name                     : "Kim Min Seung"
-description              : "An amazing website."
+description              : "Pesonal TIL Blog"
 url                      : "https://malcomex12.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -106,7 +106,7 @@ author:
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Learning Front-end Skills"
   location         : "Somewhere"
-  email            :
+  email            : malcomex@naver.com
   links:
     - label: "malcomex@naver.com"
       icon: "fas fa-fw fa-envelope-square"
