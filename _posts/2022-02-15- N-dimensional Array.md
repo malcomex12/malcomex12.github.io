@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "N차원 Array"
+title: "2022-02-15 N차원 Array"
 ---
 
 ## p.s 개념만 알고 주말에 복습
