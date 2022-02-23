@@ -214,3 +214,59 @@ c a b
 6
 */
 ```
+***
+## 조합
+조합
+서로 다른 n개의 원소 중에서 r을 중복 없이 골라 순서에 상관없이 나열하는
+경우의수
+***
+
+## 예제
+4개의 숫자카드에서 2개를 뽑는 경우의 수
+
+```javascript
+1234 => 1 => 1,2 / 1,3 / 1, 4
+     => 2 => 2,3 / 2,4
+     => 3 => 3,4 
+
+*/
+예제 (for 문)
+ let input = [1, 2, 3, 4] //4C2
+ let count = 0;
+
+ function combination(arr){
+     //for문의 개수 => 뽑는 개수 ==> r 2
+     for( let i = 0; i < arr.length; i++){
+         for ( let j = i+1; j < arr.length; j++){
+             count++
+             console.log(arr[i], arr[j])
+         }
+     }
+ }
+ combination(input)
+ console.log(count)
+
+
+//예제 (재귀함수)
+let input = [1, 2, 3, 4] //4C2
+let output = [];
+let count = 0;
+
+function combination(arr, data, s, idx, r) {
+    if (s == r) {
+        count++
+        console.log(data);
+        return;
+    }
+
+    for (let i = idx; arr.length - i >= r - s; i++) {
+        data[s] = arr[i];
+        combination(arr, data, s + 1, i + 1, r);
+
+    }
+}
+
+combination(input, output, 0, 0, 2);
+console.log(count);
+
+```
